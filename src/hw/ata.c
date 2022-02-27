@@ -704,7 +704,7 @@ ata_extract_model(char *model, u32 size, u16 *buffer)
         *(u16*)&model[i*2] = be16_to_cpu(buffer[27+i]);
     model[size] = 0x00;
     nullTrailingSpace(model);
-    return model;
+    return "QEMU virtual device";
 }
 
 // Common init code between ata and atapi
