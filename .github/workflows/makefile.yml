@@ -1,0 +1,25 @@
+name: SeaBios CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      
+    - name: Build seabios
+      run: make
+    
+    - name: Upload artifact
+    - uses: actions/upload-artifact@v2
+      with:
+          name: seabios.bin
+          path: out/bios.bin
+    
