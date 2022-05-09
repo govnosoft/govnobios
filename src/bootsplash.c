@@ -48,7 +48,22 @@ enable_vga_console(void)
     call16_int10(&br);
 
     // Write to screen.
-    printf("SeaBIOS (version %s-github-actions)\n", VERSION);
+    printf("KOLAMBIA PICKCHERS PREDSTAVLAYET:");
+    printf("");
+    printf("░░░░░░░░░░░█▀▀░░█░░░░░░");
+    printf("░░░░░░▄▀▀▀▀░░░░░█▄▄░░░░");
+    printf("░░░░░░█░█░░░░░░░░░░▐░░░");
+    printf("░░░░░░▐▐░░░░░░░░░▄░▐░░░");
+    printf("░░░░░░█░░░░░░░░▄▀▀░▐░░░");
+    printf("░░░░▄▀░░░░░░░░▐░▄▄▀░░░░");
+    printf("░░▄▀░░░▐░░░░░█▄▀░▐░░░░░");
+    printf("░░█░░░▐░░░░░░░░▄░█░░░░░");
+    printf("░░░█▄░░▀▄░░░░▄▀▐░█░░░░░");
+    printf("░░░█▐▀▀▀░▀▀▀▀░░▐░█░░░░░");
+    printf("░░▐█▐▄░░▀░░░░░░▐░█▄▄░░░");
+    printf("░░░▀▀░▄AMI▄░░░▐▄▄▄▀░░░░");
+    printf("");
+    printf("GOVNOBIOS (VERSII %s-github-actions)\n", VERSION);
     display_uuid();
 }
 
