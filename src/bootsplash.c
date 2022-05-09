@@ -48,22 +48,22 @@ enable_vga_console(void)
     call16_int10(&br);
 
     // Write to screen.
-    printf("KOLAMBIA PICKCHERS PREDSTAVLAYET:");
-    printf("");
-    printf("░░░░░░░░░░░█▀▀░░█░░░░░░");
-    printf("░░░░░░▄▀▀▀▀░░░░░█▄▄░░░░");
-    printf("░░░░░░█░█░░░░░░░░░░▐░░░");
-    printf("░░░░░░▐▐░░░░░░░░░▄░▐░░░");
-    printf("░░░░░░█░░░░░░░░▄▀▀░▐░░░");
-    printf("░░░░▄▀░░░░░░░░▐░▄▄▀░░░░");
-    printf("░░▄▀░░░▐░░░░░█▄▀░▐░░░░░");
-    printf("░░█░░░▐░░░░░░░░▄░█░░░░░");
-    printf("░░░█▄░░▀▄░░░░▄▀▐░█░░░░░");
-    printf("░░░█▐▀▀▀░▀▀▀▀░░▐░█░░░░░");
-    printf("░░▐█▐▄░░▀░░░░░░▐░█▄▄░░░");
-    printf("░░░▀▀░▄AMI▄░░░▐▄▄▄▀░░░░");
-    printf("");
-    printf("GOVNOBIOS (VERSII %s-github-actions)\n", VERSION);
+    printf("{-_-} KOLAMBIA PICKCHERS PREDSTAVLAYET {-_-}\n");
+    printf("\n");
+    printf("...........XXX..X......\n");
+    printf("......XXXXX.....XXX....\n");
+    printf("......X.X..........X...\n");
+    printf("......XX.........X.X...\n");
+    printf("......X........XXX.X...\n");
+    printf("....XX........X.XXX....\n");
+    printf("..XX...X.....XXX.X.....\n");
+    printf("..X...X........X.X.....\n");
+    printf("...XX..XX....XXX.X.....\n");
+    printf("...XXXXX.XXXX..X.X.....\n");
+    printf("..XXXX..X......X.XXX...\n");
+    printf("...XX.,AMI,...XXXXX....\n");
+    printf("\n");
+    printf("GOVNOBIOS (VERSII %s-SHIIIIEEET!!!)\n", VERSION);
     display_uuid();
 }
 
